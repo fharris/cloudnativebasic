@@ -1,5 +1,7 @@
 # My cloud native basic app with springboot
 
+In this exercise I will share how to dockerize a SpringBoot app, test it locally and push it to docker hub
+
 ## See the following resources:
 
 - [Build Instructions](./installation.md)
