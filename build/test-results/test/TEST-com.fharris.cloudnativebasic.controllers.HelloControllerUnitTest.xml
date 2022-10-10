@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.fharris.cloudnativebasic.controllers.HelloControllerUnitTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-10-10T15:03:25" hostname="fernandoharris-mac" time="0.009">
+  <properties/>
+  <testcase name="sayHello()" classname="com.fharris.cloudnativebasic.controllers.HelloControllerUnitTest" time="0.009"/>
+  <system-out><![CDATA[My ip is 0.0.0.0
+My hostname is 0.0.0.0
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

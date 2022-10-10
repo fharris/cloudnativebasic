@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class com.fharris.cloudnativebasic.CloudnativebasicApplicationTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class com.fharris.cloudnativebasic.CloudnativebasicApplicationTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.fharris.cloudnativebasic.html">com.fharris.cloudnativebasic</a> &gt; CloudnativebasicApplicationTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">3</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.321s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">contextLoads()</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">defaultCurrency()</td>
+<td class="success">0.313s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">germanCurrency()</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>17:03:24.106 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+17:03:24.116 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+17:03:24.137 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.fharris.cloudnativebasic.CloudnativebasicApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+17:03:24.146 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.fharris.cloudnativebasic.CloudnativebasicApplicationTests], using SpringBootContextLoader
+17:03:24.150 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.fharris.cloudnativebasic.CloudnativebasicApplicationTests]: class path resource [com/fharris/cloudnativebasic/CloudnativebasicApplicationTests-context.xml] does not exist
+17:03:24.150 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.fharris.cloudnativebasic.CloudnativebasicApplicationTests]: class path resource [com/fharris/cloudnativebasic/CloudnativebasicApplicationTestsContext.groovy] does not exist
+17:03:24.151 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.fharris.cloudnativebasic.CloudnativebasicApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+17:03:24.151 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.fharris.cloudnativebasic.CloudnativebasicApplicationTests]: CloudnativebasicApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+17:03:24.176 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.fharris.cloudnativebasic.CloudnativebasicApplicationTests]
+17:03:24.213 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/Users/fernandoharris/spring-boot-learning-workspace/cloudnativebasic/build/classes/java/main/com/fharris/cloudnativebasic/CloudnativebasicApplication.class]
+17:03:24.214 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.fharris.cloudnativebasic.CloudnativebasicApplication for test class com.fharris.cloudnativebasic.CloudnativebasicApplicationTests
+17:03:24.278 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.fharris.cloudnativebasic.CloudnativebasicApplicationTests]: using defaults.
+17:03:24.278 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+17:03:24.285 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+17:03:24.285 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+17:03:24.286 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@7b707e1, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6ad21add, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4983ee84, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@674719c6, org.springframework.test.context.support.DirtiesContextTestExecutionListener@58f082c0, org.springframework.test.context.event.EventPublishingTestExecutionListener@228e6ff1, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@74af42ea, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@2bf9ec90, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@77439dad, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@26639553, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@28d53b67, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4c2ccf81]
+17:03:24.288 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@30726df3 testClass = CloudnativebasicApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@1ed234d5 testClass = CloudnativebasicApplicationTests, locations = '{}', classes = '{class com.fharris.cloudnativebasic.CloudnativebasicApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@a4a95c1, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@2d072c46, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@153c8144, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@4a118788, org.springframework.boot.test.context.SpringBootTestArgs@1], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -&gt; true]], class annotated with @DirtiesContext [false] with mode [null].
+17:03:24.304 [Test worker] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.4.RELEASE)
+
+2022-10-10 17:03:24.449  INFO 37889 --- [    Test worker] c.f.c.CloudnativebasicApplicationTests   : Starting CloudnativebasicApplicationTests on fernandoharris-mac with PID 37889 (started by fernandoharris in /Users/fernandoharris/spring-boot-learning-workspace/cloudnativebasic)
+2022-10-10 17:03:24.450  INFO 37889 --- [    Test worker] c.f.c.CloudnativebasicApplicationTests   : No active profile set, falling back to default profiles: default
+2022-10-10 17:03:25.290  INFO 37889 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-10-10 17:03:25.352  INFO 37889 --- [    Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-10-10 17:03:25.483  INFO 37889 --- [    Test worker] c.f.c.CloudnativebasicApplicationTests   : Started CloudnativebasicApplicationTests in 1.174 seconds (JVM running for 2.065)
+€12,345,678.90
+12.345.678,90 ¤
+There are 136 Beans Count in the Application Context:wq
+org.springframework.boot.test.mock.mockito.MockitoPostProcessor$SpyPostProcessor
+org.springframework.boot.test.mock.mockito.MockitoPostProcessor
+org.springframework.context.annotation.internalConfigurationAnnotationProcessor
+org.springframework.context.annotation.internalAutowiredAnnotationProcessor
+org.springframework.context.annotation.internalCommonAnnotationProcessor
+org.springframework.context.event.internalEventListenerProcessor
+org.springframework.context.event.internalEventListenerFactory
+cloudnativebasicApplication
+org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory
+helloController
+helloRestController
+defaultCurrencyFormat
+germanCurrencyFormat
+org.springframework.boot.autoconfigure.AutoConfigurationPackages
+org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration
+propertySourcesPlaceholderConfigurer
+org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration$TomcatWebSocketConfiguration
+websocketServletWebServerCustomizer
+org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration
+org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat
+tomcatServletWebServerFactory
+org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryAutoConfiguration
+servletWebServerFactoryCustomizer
+tomcatServletWebServerFactoryCustomizer
+org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor
+org.springframework.boot.context.internalConfigurationPropertiesBinderFactory
+org.springframework.boot.context.internalConfigurationPropertiesBinder
+org.springframework.boot.context.properties.BoundConfigurationProperties
+org.springframework.boot.context.properties.ConfigurationBeanFactoryMetadata
+server-org.springframework.boot.autoconfigure.web.ServerProperties
+webServerFactoryCustomizerBeanPostProcessor
+errorPageRegistrarBeanPostProcessor
+org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletConfiguration
+dispatcherServlet
+spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties
+org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration
+dispatcherServletRegistration
+org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration
+org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration
+taskExecutorBuilder
+applicationTaskExecutor
+spring.task.execution-org.springframework.boot.autoconfigure.task.TaskExecutionProperties
+org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration
+error
+beanNameViewResolver
+org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$DefaultErrorViewResolverConfiguration
+conventionErrorViewResolver
+org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration
+errorAttributes
+basicErrorController
+errorPageCustomizer
+preserveErrorControllerTargetClassPostProcessor
+spring.resources-org.springframework.boot.autoconfigure.web.ResourceProperties
+org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration
+requestMappingHandlerAdapter
+requestMappingHandlerMapping
+welcomePageHandlerMapping
+mvcConversionService
+mvcValidator
+mvcContentNegotiationManager
+mvcPathMatcher
+mvcUrlPathHelper
+viewControllerHandlerMapping
+beanNameHandlerMapping
+routerFunctionMapping
+resourceHandlerMapping
+mvcResourceUrlProvider
+defaultServletHandlerMapping
+handlerFunctionAdapter
+mvcUriComponentsContributor
+httpRequestHandlerAdapter
+simpleControllerHandlerAdapter
+handlerExceptionResolver
+mvcViewResolver
+mvcHandlerMappingIntrospector
+org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter
+defaultViewResolver
+viewResolver
+requestContextFilter
+org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration
+formContentFilter
+org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$ClassProxyingConfiguration
+org.springframework.boot.autoconfigure.aop.AopAutoConfiguration
+org.springframework.boot.autoconfigure.availability.ApplicationAvailabilityAutoConfiguration
+applicationAvailability
+org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration
+org.springframework.boot.autoconfigure.context.LifecycleAutoConfiguration
+lifecycleProcessor
+spring.lifecycle-org.springframework.boot.autoconfigure.context.LifecycleProperties
+org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration
+standardJacksonObjectMapperBuilderCustomizer
+spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties
+org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration
+jacksonObjectMapperBuilder
+org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration
+parameterNamesModule
+org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration
+jacksonObjectMapper
+org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration
+jsonComponentModule
+org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration$StringHttpMessageConverterConfiguration
+stringHttpMessageConverter
+org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration$MappingJackson2HttpMessageConverterConfiguration
+mappingJackson2HttpMessageConverter
+org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration
+org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration
+messageConverters
+org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration
+spring.info-org.springframework.boot.autoconfigure.info.ProjectInfoProperties
+org.springframework.boot.autoconfigure.task.TaskSchedulingAutoConfiguration
+taskSchedulerBuilder
+spring.task.scheduling-org.springframework.boot.autoconfigure.task.TaskSchedulingProperties
+org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$ThymeleafJava8TimeDialect
+java8TimeDialect
+org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$ThymeleafWebMvcConfiguration$ThymeleafViewResolverConfiguration
+thymeleafViewResolver
+org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$ThymeleafWebMvcConfiguration
+org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$ThymeleafDefaultConfiguration
+templateEngine
+org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration
+defaultTemplateResolver
+org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration
+spring.thymeleaf-org.springframework.boot.autoconfigure.thymeleaf.ThymeleafProperties
+org.springframework.boot.autoconfigure.web.client.RestTemplateAutoConfiguration
+restTemplateBuilder
+org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration$TomcatWebServerFactoryCustomizerConfiguration
+tomcatWebServerFactoryCustomizer
+org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration
+org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration
+characterEncodingFilter
+localeCharsetMappingsCustomizer
+org.springframework.boot.autoconfigure.web.servlet.MultipartAutoConfiguration
+multipartConfigElement
+multipartResolver
+spring.servlet.multipart-org.springframework.boot.autoconfigure.web.servlet.MultipartProperties
+org.springframework.aop.config.internalAutoProxyCreator
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 6.6.1</a> at Oct 10, 2022, 5:03:27 PM</p>
+</div>
+</div>
+</body>
+</html>

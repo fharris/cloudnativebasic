@@ -1,0 +1,8 @@
+com/fharris/cloudnativebasic/CloudnativebasicApplicationTests.java
+ com.fharris.cloudnativebasic.CloudnativebasicApplicationTests
+com/fharris/cloudnativebasic/controllers/HelloControllerUnitTest.java
+ com.fharris.cloudnativebasic.controllers.HelloControllerUnitTest
+com/fharris/cloudnativebasic/controllers/HelloRestControllerTests.java
+ com.fharris.cloudnativebasic.controllers.HelloRestControllerTests
+com/fharris/cloudnativebasic/controllers/HelloControllerIntegrationTest.java
+ com.fharris.cloudnativebasic.controllers.HelloControllerIntegrationTest
