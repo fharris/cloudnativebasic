@@ -42,3 +42,19 @@ Finally with the ENTRYPOINT I’m defining the command I’m going to execute to
 ```
 ENTRYPOINT ["java","-jar","/app.jar"]
 ```
+
+
+Now that we have our Dockerfile ready, we can actually build or docker container:
+```
+docker build -t fharris/cloudnativebasic-spring-docker .
+```
+
+Check the image:
+```
+docker images
+```
+
+If everything went ok and the image was built and its available on my local registry, all I need to do now is to run it locally:
+```
+docker run -p 8080:8080 -t fharris/cloudnativebasic-spring-docker
+```
