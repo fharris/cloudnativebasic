@@ -44,7 +44,7 @@ ENTRYPOINT ["java","-jar","/app.jar"]
 ```
 
 
-Now that we have our Dockerfile ready, we can actually build or docker container:
+Now that we have our Dockerfile ready, we can actually build our docker container:
 ```
 docker build -t fharris/cloudnativebasic-spring-docker .
 ```
@@ -57,4 +57,16 @@ docker images
 If everything went ok and the image was built and its available on my local registry, all I need to do now is to run it locally:
 ```
 docker run -p 8080:8080 -t fharris/cloudnativebasic-spring-docker
+```
+
+I’m saying with this that docker will execute the image referenced mapping the port 8080 of my local machine to the port 8080 of the running container.
+
+You should be able to test it locally here:  http://localhost:8080/hello
+
+## Summary
+The application was [built and tested locally](./installation.md). Then it was [dockerized](./Dockerfile) and tested again successfully.
+It means we can now ship our image to our remote docker repository and make it available to other developers:
+In my case, I would push the image to my docker hub public rep (fharris) with the name cloudnativebasic-spring-docker:
+```
+docker push fharris/cloudnativebasic-spring-docker
 ```
