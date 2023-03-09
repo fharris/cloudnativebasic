@@ -51,6 +51,11 @@ Now that we have our Dockerfile ready, we can actually build our docker containe
 docker build -t fharris/cloudnativebasic-spring-docker .
 ```
 
+Or if we want to build to another runtime with another CLI such as nerdctl for containerd :
+```
+nerdctl build -t fharris/cloudnativebasic-spring-docker .
+```
+
 Check the image:
 ```
 docker images
@@ -60,8 +65,12 @@ If everything went ok and the image was built and its available on my local regi
 ```
 docker run -p 8080:8080 -t fharris/cloudnativebasic-spring-docker
 ```
+or  if you want to run it with nerdctl and containerd:
+```
+nerdctl run -p 8080:8080 -t fharris/cloudnativebasic-spring-docker
+```
 
-I’m saying with this that docker will execute the image referenced mapping the port 8080 of my local machine to the port 8080 of the running container.
+I’m saying with this that we will execute the image referenced mapping the port 8080 of my local machine to the port 8080 of the running container.
 
 You should be able to test it locally here:  http://localhost:8080/hello
 
