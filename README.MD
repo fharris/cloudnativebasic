@@ -15,15 +15,15 @@ An important step to make an application cloud-native, is the process of contain
 We will need a [Dockerfile](./Dockerfile) for that:
 
 ```
-FROM openjdk:11-jre-slim
+FROM openjdk:23-jdk-slim 
 ARG JAR_FILE=build/libs/*.jar
 COPY ${JAR_FILE} app.jar
 ENTRYPOINT ["java","-jar","/app.jar"]
 ```
 - 1: FROM
-This is my first layer for the image. I’m basically mounting this first layer from a linux OS with openjdk11 version jre-slim, which is small and recommended for this type of development
+This is my first layer for the image. I’m basically mounting this first layer from a linux OS with openjdk23 version slim, which is small and recommended for this type of development
 ```
-FROM openjdk:11-jre-slim
+FROM openjdk:23-jdk-slim 
 ```
 
 - 2: ARG
